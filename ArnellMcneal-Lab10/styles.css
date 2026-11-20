@@ -1,0 +1,190 @@
+/* General Website Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #14283d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Navigation */
+nav {
+    background-color: #233f5b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #7dd3fc;
+}
+
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #14283d;
+}
+
+/* Footer */
+footer {
+    background-color: #14283d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* Two-column layout */
+.columns {
+    display: flex;
+    gap: 20px;
+}
+
+.columns section {
+    flex: 1;
+}
+/* Responsive Design for Phones */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+/* Portfolio Image */
+.profile-img {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}
+/* Fix oversized laptop image */
+img {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Donation Form Styling */
+form {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+fieldset {
+    border: 2px solid #233f5b;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+legend {
+    color: #14283d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #14283d;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #233f5b;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode section {
+    background-color: #242424;
+    color: #ffffff;
+}
+
+body.dark-mode section h2 {
+    color: #7dd3fc;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #080f18;
+}
+
+body.dark-mode nav {
+    background-color: #182536;
+}
+
+body.dark-mode fieldset {
+    border-color: #7dd3fc;
+}
+
+body.dark-mode legend {
+    color: #7dd3fc;
+}
