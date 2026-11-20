@@ -1,2 +1,2 @@
 # arnell-portfolio
-My Information Technology Portfolio Website 6.
+My Information Technology Portfolio Website
